@@ -16,6 +16,19 @@
  
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
+ 
+ body, .navbar {
+  /* Gradient provided by @_ighosh at uigradients.com */
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #1CB5E0, #000046);
+  background: -moz-linear-gradient(left, #1CB5E0, #000046);
+  background: -o-linear-gradient(left, #1CB5E0, #000046);
+  background: linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+  border: none;
+}
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
